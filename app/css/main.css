@@ -1,0 +1,45 @@
+.box{
+	position:relative;
+	width:800px;
+	height:600px;
+	background-color:blue;
+	margin:0 auto;
+}
+#me{
+	position:absolute;
+	width:100px;
+	height:100px;
+	left:350px;
+	bottom:20px;
+}
+#other{
+	position:absolute;
+	bottom:0;
+	right:0;
+	width:400px;
+	height:400px;
+}
+#cicada{
+	position:absolute;
+	left:100px;
+	bottom:0;
+	width:100px;
+	height:600px;
+}
+#sun{
+	position:absolute;
+	top:20px;
+	left:400px;
+	width:150px;
+	height:150px;
+}
+.textbox{
+	box-sizing:border-box;
+	width:800px;
+	height:50px;
+	line-height:50px;
+	margin:0 auto;
+	padding:0 5px;
+	background-color:grey;
+	color:white;
+}
