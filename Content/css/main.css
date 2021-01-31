@@ -1,0 +1,94 @@
+#container{
+	width:800px;
+	height:800px;
+	margin:0 auto;
+}
+#op{
+	background-image:url(../images/op.png);
+	background-size:cover;
+	height:800px;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+}
+#op button{
+	width:200px;
+	height:150px;
+}
+#p1{
+	background-image:url(../images/bg1.jpeg);
+	width:800px;
+	height:600px;
+	display:none;
+	position:relative;
+}
+#p1 img{
+	position:absolute;
+}
+#me1{
+	width:200px;
+	height:250px;
+	left:280px;
+	bottom:10px;
+}
+#me2{
+	width:200px;
+	height:250px;
+	left:280px;
+	bottom:10px;
+}
+#other{
+	bottom:16px;
+	right:0;
+	width:200px;
+	height:300px;
+}
+#cicada{
+	left:220px;
+	top:20px;
+	width:200px;
+	height:300px;
+}
+#sun{
+	top:0;
+	left:0;
+	width:300px;
+	height:300px;
+}
+.textbox{
+	position:absolute;
+	width:800px;
+	height:100px;
+	bottom:-100px;
+	left:0;
+	background-color:#333;
+	color:white;
+	line-height:100px;
+}
+.name{
+	position:absolute;
+	right:20px;
+	bottom:-50px;
+	width:80px;
+	height:50px;
+}
+#p2{
+	background-image:url(../images/bg2.jpeg);
+	width:800px;
+	height:600px;
+	display:none;
+	position:relative;
+}
+#p2 img{
+	position:absolute;
+}
+#moon{
+	width:200px;
+	height:200px;
+	right:-9px;
+	top:-30px;
+}
+#ed{
+	display:none;
+}
+
